@@ -15,43 +15,53 @@
 </head>
 
 <body>
-    <section>
-        <h1>Практикуемся вставлять изображения</h1>
-        <p>здесь есть и контентые, и декоративные, вам нужно <br> правильно определить их и свертсать страницу </p>
-        <button class="apple">Можно скачать <br>
-            в App Store </button>
-        <button class="google">Можно скачать <br>
-            в Google play </button>
-    </section>
+    <section class="grey">
 
-    <section class="blaсk">
-
-        <img src="imeges/img-left.png" alt="Стрелка лево" class="left">
-        <h2>Чем заняться в пятницу <br> вечером? Шахматы?</h2>
-        <img src="imeges/img-right.png" alt="Стрелка право" class="right">
-
-    </section>
-
-    <section class="variant">
-        <h2>Какие ещё <br>
-            есть варианты?</h2>
-        <div class="conteiner">
-            <article class="variant-item">
-                <img src="imeges/lightbulb-icon.png" alt="Лампочка">
-                <h3>остаться дома</h3>
-                <p>универсальный вариант, подходит для всех, кто любит отдыхать наедине с собой</p>
-            </article>
-            <article class="variant-item">
-                <img src="imeges/browse-icon.png" alt="Рука">
-                <h3>остаться дома</h3>
-                <p>универсальный вариант, подходит для всех, кто любит отдыхать наедине с ноутбуком</p>
-            </article>
-            <article class="variant-item">
-                <img src="imeges/tel-icon.png" alt="Телефон">
-                <h3>остаться дома</h3>
-                <p>универсальный вариант, подходит для всех, кто любит делегировать</p>
-            </article>
+        <div class="continer">
+            <h1>Практикуемся вставлять изображения</h1>
+            <p>здесь есть и контентые, и декоративные, вам нужно <br> правильно определить их и свертсать страницу </p>
+            <button class="apple">Можно скачать <br>
+                в App Store </button>
+            <button class="google">Можно скачать <br>
+                в Google play </button>
         </div>
+        
+    </section>
+
+    <section class="section-blaсk">
+        <div class="continer blaсk">
+            <img src="imeges/img-left.png" alt="Стрелка лево" class="left">
+            <h2>Чем заняться в пятницу <br> вечером? Шахматы?</h2>
+            <img src="imeges/img-right.png" alt="Стрелка право" class="right">
+        </div>
+
+        
+
+    </section>
+
+    <section class="white">
+        <div class="continer">
+            <h2>Какие ещё <br>
+                есть варианты?</h2>
+            <div class="box">
+                <article class="variant-item">
+                    <img src="imeges/lightbulb-icon.png" alt="Лампочка">
+                    <h3>остаться дома</h3>
+                    <p>универсальный вариант, подходит для всех, кто любит отдыхать наедине с собой</p>
+                </article>
+                <article class="variant-item">
+                    <img src="imeges/browse-icon.png" alt="Рука">
+                    <h3>остаться дома</h3>
+                    <p>универсальный вариант, подходит для всех, кто любит отдыхать наедине с ноутбуком</p>
+                </article>
+                <article class="variant-item">
+                    <img src="imeges/tel-icon.png" alt="Телефон">
+                    <h3>остаться дома</h3>
+                    <p>универсальный вариант, подходит для всех, кто любит делегировать</p>
+                </article>
+            </div>
+        </div>
+        
 
     </section>
 

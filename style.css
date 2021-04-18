@@ -2,17 +2,14 @@ html {
     font-size: 10px;
 }
 body {
+    margin: 0;
     font-family: 'Montserrat', sans-serif;    
 }
-section {
-    max-width: 144rem;
-    margin: 0 auto;
-    text-align: center;
-}
+
 h1 {
     font-size: 7.5rem;
     font-weight: 600;
-    margin-top: 20rem;  
+    
 }
 h2 {
     font-size: 5rem;
@@ -40,8 +37,16 @@ button {
     position: relative;
 
 }
+.continer {
+    max-width: 144rem;
+    margin: 0 auto;
+    text-align: center;
+}
 
-
+.grey {
+    background-color:#E5E5E5 ;
+    padding-top: 10rem;
+}
 .apple::before {
     content: '';
     display: block;
@@ -81,16 +86,16 @@ button {
     text-align: center;
     align-self: flex-end; 
 }
-.conteiner {
+.box {
     display: flex;
     justify-content: space-between;
     margin: 5rem 7.6rem 20rem 7.6rem ;
 }
-.variant>h2 {
+.white>h2 {
     margin-top: 10.4rem;
     margin-bottom: 5rem;
 }
-.variant-item>p {
+.white-item>p {
     font-size: 2.5rem;
     font-weight: 500; 
 }
